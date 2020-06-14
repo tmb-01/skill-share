@@ -7,6 +7,9 @@ height:fit-content;
 border-radius 8px;
 overflow:hidden;
 box-shadow: 0 2px 4px 0 rgba(184,184,184,.5);
+margin-bottom:20px;
+background-color:white;
+cursor:pointer;
 `;
 
 export const StyledCardImg = styled.img`
