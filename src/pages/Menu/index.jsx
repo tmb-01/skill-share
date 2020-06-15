@@ -11,7 +11,7 @@ class Menu extends Component {
                 cardImg: "images/traveling-painting.jpg",
                 numberOfStudents: "123",
                 duration: "1h 40m",
-                title: "Unlocking Your Potential: 5 Exercises to Build Creative Confidence",
+                // title: "Unlocking Your Potential: 5 Exercises to Build Creative Confidence",
                 author: "Maraim",
             },
             {
@@ -72,7 +72,7 @@ class Menu extends Component {
                 <Title>Unlimited Access to more than 27,000 Classes</Title>
                 <MenuNavs/>
                 <Container>
-                    {this.state.map(({cardImg, numberOfStudents, duration, title, author})=>(
+                    {this.state.map(({cardImg, numberOfStudents, duration, title, author}) => (
                         <MenuCard cardImg={cardImg}
                                   numberOfStudents={numberOfStudents}
                                   duration={duration}

@@ -6,13 +6,14 @@ display:flex;
 justify-content:space-around;
 margin:20px auto;
 cursor:pointer;
+flex-wrap:wrap;
 // padding-right:20px;
 // padding-left:20px;
 `;
 
 export const Nav = styled.div`
-// margin-right:5px;
-// margin-left:5px;
+margin-right:10px;
+margin-left:10px;
 font-weight:bold;
 p{
 margin-right:auto;
